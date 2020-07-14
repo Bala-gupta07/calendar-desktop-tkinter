@@ -1,7 +1,9 @@
 from tkinter import *
 from tkinter.font import Font
+import datetime
 import calendar
-year = 2020
+
+year = int(str(datetime.datetime.now())[:4])
 
 def yearDecrease(yearEntry):
     global year
